@@ -1,0 +1,53 @@
+
+.top-menu{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: darkmagenta;
+    color: white;
+    padding: 0px 10px;
+    height: 40px;
+}
+
+.left-menu div{
+    /* border: 1px solid black; */
+    padding: 4px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.left-menu div:hover{
+    border: 1px solid lightgray;
+    background-color: cyan;
+    padding: 4px;
+    margin: 2px;
+}
+
+.dogfeed{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dogfeed div img{
+    border: 16px solid darkmagenta;
+    margin: 10px;
+    width: 100%;
+}
+
+.menus{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.menus span{
+    font-size: 20px;
+    padding-top: 4px;
+}
+
+
